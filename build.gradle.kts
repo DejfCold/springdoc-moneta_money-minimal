@@ -19,12 +19,12 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    testImplementation("org.springframework.boot:spring-boot-starter-test")
 
 
-    implementation("org.javamoney:moneta:1.4")
-    implementation("org.springdoc:springdoc-openapi-ui:1.6.5")
-    implementation("org.springdoc:springdoc-openapi-kotlin:1.6.5")
+    implementation("org.javamoney:moneta:1.4.2")
+
+    implementation("org.springdoc:springdoc-openapi-ui:1.6.6")
+    implementation("org.springdoc:springdoc-openapi-kotlin:1.6.6")
 }
 
 tasks.withType<KotlinCompile> {
